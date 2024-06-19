@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   
   body {
@@ -46,10 +47,107 @@
 .section{
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    margin: 0 20rem;
     min-height: fit-content;
 }
 
 .profile{
     display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+  
+}
+
+.profile-pic{
+  /* display: flex; */
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+.profile-pic img{
+  border-radius: 50%;
+  border: 3px solid gray;
+  width: 70%;
+}
+
+
+.intro{
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* position: relative; */
+
+}
+
+.socials-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.4rem;
+
+}
+.socials-container img{
+  width: 30px;
+  height: 30px;
+
+}
+.btn-container button{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.btn-container button .btn2{
+  background: #4CAF50;
+}
+.text{
+  font-size: 20px;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+margin-top: 50%;
+}
+
+.text .text1{
+  font-size: 30px;
+}
+
+.title{
+  font-size: 50px;
+  margin: 20px;
+}
+
+.skill-container{
+  display: flex;
+  justify-content: center;  
+  gap: 40px;
+  
+  text-align: center;
+}
+
+.skills-container-left{
+  /* display: flex; */
+  text-align: initial;
+  /* flex-wrap: wrap; */
+
+  /* flex-direction: row; */
+  gap: 2.5rem;
+  justify-content: space-between;
+}
+article img{
+  width: 30px;
+}
+
+.skill-container{
+  display: flex;
+text-align: initial;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 2.5rem;
+justify-content: space-around;
 }
