@@ -3,7 +3,7 @@
 ### A landing page is an ideal web development project. Uses only HTML and CSS for clone Netflix. Through this project, we created columns, divide
 sections and  headers and footers. Add also a favicon.
 
-https://netflix-landing-page-by-jay.netlify.app/
+https://landing-page-by-jay.netlify.app/
 
 ### Output :
 ![image](https://github.com/jay-kishan010/CodSoft/assets/124438245/d4428dc6-3438-40b4-b337-0cd81e754a1c)
