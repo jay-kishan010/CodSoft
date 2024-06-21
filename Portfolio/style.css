@@ -7,7 +7,7 @@
   }
   
   body {
-    width: 90%;
+    width: 100%;
     font-family: 'Poppins',sans-serif;
   }
   
@@ -229,9 +229,174 @@ article{
 .skills{
   padding: 50px 12%;
   font-size: 22px;
+  
 }
 
 .skills h1{
 text-align: center;
+margin-bottom: 30px;
+}
 
+.skills-row{
+  display: flex;
+  gap: 30px;
+}
+
+.left{
+  width: 100%;
+  height: auto;
+padding: 40px;
+  border: 1px solid grey;
+  border-radius: 30px;
+
+}
+
+.left h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6d6d6d;
+}
+
+.left ul{
+  list-style: none;
+  color: grey;
+  gap: 5px;
+}
+.right ul{
+  list-style: none;
+  color: grey;
+  
+}
+.right{
+  width: 100%;
+  height: auto;
+ border-radius: 30px;
+ padding: 40px;
+  border: 1px solid grey;
+}
+
+.right h2{
+text-align: center;
+margin-bottom: 20px;
+color: #6d6d6d;
+}
+
+hr{
+  width: 80%;
+  margin: 20px auto;
+}
+
+
+.projects{
+  text-align: center;
+ margin: 30px;
+}
+
+.projects h1{
+  margin-bottom: 40px;
+}
+.project-row{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.pro1{
+
+  border: 1px solid grey;
+  padding: 10px;
+
+height: 300px;
+width: 400px;
+border-radius: 30px;
+}
+.pro1 img{
+  
+  width: 100%;
+  border-radius: 40px;
+  height:80%;
+  display: block;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.pro2{
+  border-radius: 30px;
+  border: 1px solid grey;
+  padding: 10px;
+  height: 300px;
+width: 400px;
+}
+.pro2 img{
+  
+  width: 100%;
+  border-radius: 40px;
+  height:80%;
+  border: 1px solid rgb(194, 194, 194);
+}
+.pro3{
+  border-radius: 30px;
+  border: 1px solid grey;
+  padding: 10px;
+  height: 300px;
+width: 400px;
+}
+.pro3 img{
+  
+  width: 100%;
+  border-radius: 40px;
+  height:80%;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+button{
+  padding: 7px;
+  border-radius: 20px;
+  
+  background: whitesmoke;
+  margin-bottom: 30px;
+}
+
+
+
+.btn2{
+  background-color: #6d6d6d;
+  color: white;
+}
+
+
+.contact{
+  text-align: center;
+ margin:0 30%;
+height: 30vh;
+}
+
+.contact-box{
+  border: 1px solid black;
+ padding: 30px 0;
+ margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #b1b1b1;
+border: none;
+border-radius: 20px;
+}
+
+input{
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.contact-button .btn2{
+  padding: 10px;
+
+}
+
+footer {
+  text-align: center;
+  margin: 30px;
 }
