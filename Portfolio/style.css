@@ -7,7 +7,7 @@
   }
   
   body {
-    width: 90vw;
+    width: 90%;
     font-family: 'Poppins',sans-serif;
   }
   
@@ -183,48 +183,55 @@ article{
 }
 
 
-/* const */
-.skill-container {
+
+.about{
+  padding: 50px 12%;
+  font-size: 22px;
+}
+
+.row{
   display: flex;
-}
-.skills-container-box {
-  flex: 1;
-  background-color: #f0f0f0;
-  padding: 20px;
-}
-.skill-title {
-  font-weight: bold;
-  font-size: 18px;
-}
-.icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-h3 {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-p {
-  font-size: 14px;
+  width: 100%;
+  align-items:center;
+  flex-wrap: wrap;
+  padding: 50px 0;
 }
 
-
-/* project section  */
-
-#projects{
-  position: relative;
-  display: flex;
-
-  flex-direction: row;
-  
+.text-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
 }
 
-.details-container{
- border: 2px solid rgb(137, 137, 137);
- 
+.img-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+
 }
 
-.article-container img{
-  width: 500px;
+.img-col img{
+  display: block;
+  width: 70%;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50px;
+}
+
+.about h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about h1{
+  text-align: center;
+}
+
+.skills{
+  padding: 50px 12%;
+  font-size: 22px;
+}
+
+.skills h1{
+text-align: center;
+
 }
