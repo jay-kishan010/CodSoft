@@ -1,4 +1,17 @@
-"# CodeSoft" 
+"# CodeSoft"
+## task 1 - Portfolio
+###Creating a personal portfolio using CSS and HTML.
+
+https://jaykishan-portfolio.netlify.app/
+
+### Output:
+
+![image](https://github.com/jay-kishan010/CodSoft/assets/124438245/013ae7ed-1f2c-4fa6-a985-d022222c5399)
+![image](https://github.com/jay-kishan010/CodSoft/assets/124438245/4a974ec9-5830-4702-966b-e2e3f2bb27a8)
+![image](https://github.com/jay-kishan010/CodSoft/assets/124438245/99f4800d-f665-42c0-9251-2627bc1167e9)
+![image](https://github.com/jay-kishan010/CodSoft/assets/124438245/5faaec20-8bf6-43ea-989b-f5c73f206b04)
+
+
 ## Task 2 - Landing Page
 ### A landing page is an ideal web development project. Uses only HTML and CSS for clone Netflix. Through this project, we created columns, divide
 sections and  headers and footers. Add also a favicon.
